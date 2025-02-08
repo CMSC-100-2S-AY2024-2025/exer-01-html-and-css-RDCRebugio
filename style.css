@@ -3,16 +3,23 @@ body {
   /* Dark Greenish */
   background-color: rgb(10, 90, 10);
 }
-
+.Page-wrap{
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 /* Upper part (Logo and Name) */
 
-/* Border */
 
-.Logo {
-  width: 1500px;
+.Logo-container {
+  width: 1200px;
   border: 10px solid maroon;
   padding: 50px;
   margin: 20px;
+  justify-content: center; 
+  align-items: center;
+  display: flex;
 }
 
 /* Images size */
@@ -30,15 +37,48 @@ body {
   height: 170px;
 }
 
-/* Wrap/alignment */
-.Logo-wrap{
-  /* my pictures are in one line only */
-  flex-wrap: nowrap;
-  display: flex;
+
+
+/* BOdy part plus project photos */
+
+.Project-container {
+  width: 1200px;
+  border: 10px solid maroon;
+  padding: 50px;
+  margin: 20px;
   justify-content: center; 
-  align-items: center; 
-  align-content: space-evenly;
-  padding: 200px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
 }
 
-/* Middle part plus project photos */
+.Project-Wrap {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.project-img {
+  max-width: 45%; 
+  /* auto adjust height base on the aspect */
+  height: auto; 
+  width: 500px;
+  height: 200px;
+}
+
+.Project-Description-Font {
+  font-family: "Times New Roman", Times, serif;
+  color: maroon;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Header {
+  font-family: "Times New Roman", Times, serif;
+  color: maroon;
+  font-weight: bold;
+  font-size: 100px;
+}
+

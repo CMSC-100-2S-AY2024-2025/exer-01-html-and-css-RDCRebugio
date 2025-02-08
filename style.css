@@ -1,7 +1,44 @@
 
-div {
-    width: 300px;
-    border: 15px solid black;
-    padding: 50px;
-    margin: 20px;
-  }
+body {
+  /* Dark Greenish */
+  background-color: rgb(10, 90, 10);
+}
+
+/* Upper part (Logo and Name) */
+
+/* Border */
+
+.Logo {
+  width: 1500px;
+  border: 10px solid maroon;
+  padding: 50px;
+  margin: 20px;
+}
+
+/* Images size */
+
+.Myphoto {
+  width: 200px;
+  height: 170px;
+}
+.uplblogo {
+  width: 500px;
+  height: 200px;
+}
+.ics-logo {
+  width: 200px;
+  height: 170px;
+}
+
+/* Wrap/alignment */
+.Logo-wrap{
+  /* my pictures are in one line only */
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  align-content: space-evenly;
+  padding: 200px;
+}
+
+/* Middle part plus project photos */
